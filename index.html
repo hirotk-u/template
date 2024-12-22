@@ -1,0 +1,24 @@
+<html>
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/fetch-jsonp@1.1.3/build/fetch-jsonp.min.js"></script>
+    <script src="test.js" async></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <div>
+            <label for="task" class="text_lb">TODOリスト</label>
+            <input type="text" id="task" />
+        </div>
+        <div>
+            <input type="button" id="saveBtn" value="保存" />
+            <input type="button" id="loadBtn" value="読込" />
+            <input type="button" id="allLoadBtn" value="全件読込" />
+            <input type="button" id="allDelBtn" value="全削除" />
+        </div>
+        <br>
+        <div id="result">
+            <label for="result" class="text_lb">保存データ</label>
+            <input type="label" id="result">
+        </div>
+    </body>
+</html>
